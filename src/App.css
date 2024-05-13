@@ -1,0 +1,123 @@
+
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: skyblue;
+}
+
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6f61;
+}
+
+/* Add styles for the navigation bar */
+.navbar {
+  background-color: #333; 
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+  width: 100%; 
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff; 
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-nav li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.navbar-nav li a {
+  color: #fff; 
+}
+
+.navbar-nav li a:hover {
+  color: #ff6f61;
+}
+
+/* Home.css */
+.home-container {
+  padding: 20px;
+  background-color: #87ceeb; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.home-container h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.home-container p {
+  font-size: 18px;
+  color: #333; 
+}
+
+/* Style for the image */
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; 
+
+}
+
+
+.services-container {
+  padding: 20px;
+  background-color: #fff; 
+  color: #333; 
+}
+
+.services-container h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.services-container ul {
+  list-style-type: none;
+}
+
+.services-container li {
+  font-size: 18px;
+}
+
+/* styles for Contact page */
+.contact-container {
+  padding: 20px;
+  background-color: #fff; 
+  color: #333; 
+}
+
+.contact-container h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  font-size: 18px;
+}
